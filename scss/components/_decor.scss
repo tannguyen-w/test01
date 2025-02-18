@@ -1,8 +1,21 @@
 .decor {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__top--separate {
+    height: 1px;
+    width: 720px;
+    background: #f3eae5;
+  }
   &__sub-desc {
+    width: 222px;
+    opacity: 0.85;
     font-style: italic;
-    text-align: center;
     color: #462b20;
+    font-family: "Instrument Serif", sans-serif;
   }
 
   &__container {

@@ -10,12 +10,8 @@
     opacity: 0.7;
   }
 
-  &__heading,
-  &__title {
-    font-family: "Optima nova LT Pro", sans-serif;
-  }
-
   &__heading {
+    font-family: "Optima nova LT Pro", sans-serif;
     font-size: 6.3rem;
     line-height: 106%;
     letter-spacing: 1px;
@@ -30,6 +26,7 @@
   }
 
   &__title {
+    font-family: "Inter", sans-serif;
     font-size: 2.2rem;
     line-height: 122%;
   }
