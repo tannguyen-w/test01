@@ -1,0 +1,55 @@
+.feature {
+  padding: 35px 50px;
+  border-radius: 20px;
+  background: #f7f7f8;
+
+  &__heading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: min(544px, 100%);
+    padding: 10px 0;
+
+    font-size: 3.1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.93px;
+  }
+
+  &__group {
+    margin-top: 70px;
+  }
+
+  &__separate {
+    display: block;
+    padding: 0;
+    width: 1px;
+    height: 132px;
+    background: rgba(0, 0, 0, 0.11);
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+
+    gap: 8px;
+  }
+
+  &__icon {
+    padding: 5px;
+    height: 48px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.34px;
+
+    width: 163px;
+  }
+}

@@ -1,0 +1,21 @@
+.section-02 {
+  margin: 76px 0 120px 60px;
+  font-family: "Inter", sans-serif;
+
+  &__main-image {
+    margin-left: 100px;
+    height: 852px;
+    width: 764px;
+    background: url(../../assets/images/chair01.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__sub-image {
+    margin-left: 16px;
+    height: 552px;
+    background: url(../../assets/images/chair02.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}

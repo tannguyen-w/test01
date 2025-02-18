@@ -1,0 +1,23 @@
+.collection {
+  background: url("../../assets/images/collection.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  margin-top: 28px;
+  height: 454px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__btn {
+    border-radius: 56px;
+    padding: 16px 34px;
+    color: #fff;
+    background: #827c6c;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

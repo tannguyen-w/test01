@@ -1,0 +1,114 @@
+.collapse {
+  width: 500px;
+  margin-top: 75px;
+
+  &__cate {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 125%;
+    color: #402c22;
+    opacity: 0.7;
+  }
+
+  &__heading,
+  &__title {
+    font-family: "Optima nova LT Pro", sans-serif;
+  }
+
+  &__heading {
+    font-size: 6.3rem;
+    line-height: 106%;
+    letter-spacing: 1px;
+    color: #402c22;
+
+    margin-top: 15px;
+  }
+
+  &__separate,
+  &__item {
+    width: 450px;
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    line-height: 122%;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+  }
+
+  &__plus,
+  &__minus {
+    transition: all 0.6s ease;
+  }
+
+  &__separate {
+    margin-top: 16px;
+    height: 1px;
+    background: #d9d5d3;
+  }
+
+  &__content {
+    overflow: hidden;
+    max-height: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 143.75%;
+    opacity: 0.8;
+
+    transition: max-height 0.6s ease;
+
+    margin: 8px 0;
+    width: 400px;
+  }
+
+  &__nav {
+    margin-right: 7px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: #402c22;
+      transition: all 0.6s ease;
+    }
+
+    &::before {
+      width: 14px;
+      height: 3px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    &::after {
+      width: 3px;
+      height: 14px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__top.open &__nav::after {
+    transform: translateX(-50%) scale(0);
+  }
+}
+
+.open {
+  max-height: 500px;
+}
+
+.active {
+  background: #000;
+  display: block;
+}

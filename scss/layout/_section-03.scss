@@ -1,0 +1,10 @@
+.section-03 {
+  background: #fff9f5;
+  color: #462b20;
+
+  &__container {
+    width: calc(100% - 192px);
+    margin: auto;
+    padding: 32px 0 72px;
+  }
+}
