@@ -11,6 +11,7 @@
     background: #f3eae5;
   }
   &__sub-desc {
+    font-size: 2rem;
     width: 222px;
     opacity: 0.85;
     font-style: italic;
@@ -28,23 +29,23 @@
     position: absolute;
 
     &--first {
-      top: 0;
-      left: 0;
+      top: 68px;
+      left: 17px;
     }
 
     &--second {
-      bottom: 0;
-      left: 0;
+      bottom: 140px;
+      left: 73px;
     }
 
     &--third {
       right: 0;
-      top: 0;
+      top: 26px;
     }
 
     &--four {
-      right: 0;
-      bottom: 0;
+      right: 146px;
+      bottom: 182px;
     }
   }
 
@@ -75,7 +76,7 @@
       display: flex;
       justify-content: center;
 
-      margin-top: 32px;
+      margin-top: 33px;
       gap: 14px;
     }
 

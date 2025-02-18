@@ -8,16 +8,21 @@
     line-height: 125%;
     color: #402c22;
     opacity: 0.7;
+    text-transform: uppercase;
   }
 
   &__heading {
     font-family: "Optima nova LT Pro", sans-serif;
-    font-size: 6.3rem;
-    line-height: 106%;
-    letter-spacing: 1px;
+    font-size: 6.4rem;
+    line-height: 104%;
+    letter-spacing: 3px;
     color: #402c22;
 
     margin-top: 15px;
+  }
+
+  &__group {
+    margin-top: 33px;
   }
 
   &__separate,
@@ -34,8 +39,6 @@
   &__top {
     display: flex;
     justify-content: space-between;
-
-    margin-top: 20px;
   }
 
   &__plus,
@@ -44,7 +47,8 @@
   }
 
   &__separate {
-    margin-top: 16px;
+    margin-top: 28px;
+    margin-bottom: 20px;
     height: 1px;
     background: #d9d5d3;
   }

@@ -1347,7 +1347,7 @@ strong {
   font-family: "Inter", sans-serif;
 }
 .section-02__main-image {
-  margin-left: 100px;
+  margin-left: 95px;
   height: 852px;
   width: 764px;
   background: url(../../assets/images/chair01.png) no-repeat;
@@ -1395,6 +1395,8 @@ strong {
 }
 .mask__bottom {
   color: #fff;
+  margin-bottom: -7px;
+  margin-left: -3px;
 }
 .mask__sub-title {
   font-size: 3.1rem;
@@ -1426,6 +1428,8 @@ strong {
 }
 .feature__group {
   margin-top: 70px;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .feature__separate {
   display: block;
@@ -1433,6 +1437,7 @@ strong {
   width: 1px;
   height: 132px;
   background: rgba(0, 0, 0, 0.11);
+  margin-right: 15px;
 }
 .feature__item {
   display: flex;
@@ -1440,13 +1445,15 @@ strong {
   justify-content: flex-end;
   flex-direction: column;
   height: 100%;
-  gap: 8px;
+  gap: 12px;
 }
 .feature__icon {
   padding: 5px;
   height: 48px;
 }
 .feature__title {
+  margin-top: -1px;
+  margin-bottom: 2px;
   text-align: center;
   font-size: 1.7rem;
   font-weight: 500;
@@ -1459,21 +1466,24 @@ strong {
   background: url("../../assets/images/collection.png") no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 28px;
+  margin-top: 31px;
   height: 454px;
   padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .collection__btn {
+  margin-top: 34px;
+  margin-left: 2px;
   border-radius: 56px;
-  padding: 16px 34px;
+  padding: 10px 32px;
   color: #fff;
   background: #827c6c;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: normal;
 }
 
 .collapse {
@@ -1486,14 +1496,18 @@ strong {
   line-height: 125%;
   color: #402c22;
   opacity: 0.7;
+  text-transform: uppercase;
 }
 .collapse__heading {
   font-family: "Optima nova LT Pro", sans-serif;
-  font-size: 6.3rem;
-  line-height: 106%;
-  letter-spacing: 1px;
+  font-size: 6.4rem;
+  line-height: 104%;
+  letter-spacing: 3px;
   color: #402c22;
   margin-top: 15px;
+}
+.collapse__group {
+  margin-top: 33px;
 }
 .collapse__separate, .collapse__item {
   width: 450px;
@@ -1506,13 +1520,13 @@ strong {
 .collapse__top {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
 .collapse__plus, .collapse__minus {
   transition: all 0.6s ease;
 }
 .collapse__separate {
-  margin-top: 16px;
+  margin-top: 28px;
+  margin-bottom: 20px;
   height: 1px;
   background: #d9d5d3;
 }
@@ -1579,6 +1593,7 @@ strong {
   background: #f3eae5;
 }
 .decor__sub-desc {
+  font-size: 2rem;
   width: 222px;
   opacity: 0.85;
   font-style: italic;
@@ -1594,20 +1609,20 @@ strong {
   position: absolute;
 }
 .decor__img--first {
-  top: 0;
-  left: 0;
+  top: 68px;
+  left: 17px;
 }
 .decor__img--second {
-  bottom: 0;
-  left: 0;
+  bottom: 140px;
+  left: 73px;
 }
 .decor__img--third {
   right: 0;
-  top: 0;
+  top: 26px;
 }
 .decor__img--four {
-  right: 0;
-  bottom: 0;
+  right: 146px;
+  bottom: 182px;
 }
 .decor__content {
   width: 636px;
@@ -1631,7 +1646,7 @@ strong {
 .decor-para__list-title {
   display: flex;
   justify-content: center;
-  margin-top: 32px;
+  margin-top: 33px;
   gap: 14px;
 }
 .decor-para__separate {

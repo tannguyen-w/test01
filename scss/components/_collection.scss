@@ -3,21 +3,23 @@
   background-size: cover;
   background-position: center;
 
-  margin-top: 28px;
+  margin-top: 31px;
   height: 454px;
   padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
 
   &__btn {
+    margin-top: 34px;
+    margin-left: 2px;
     border-radius: 56px;
-    padding: 16px 34px;
+    padding: 10px 32px;
     color: #fff;
     background: #827c6c;
-
     font-size: 1.6rem;
     font-weight: 500;
-    line-height: normal;
   }
 }

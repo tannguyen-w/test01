@@ -18,6 +18,8 @@
 
   &__group {
     margin-top: 70px;
+    margin-left: -25px;
+    margin-right: -25px;
   }
 
   &__separate {
@@ -26,6 +28,7 @@
     width: 1px;
     height: 132px;
     background: rgba(0, 0, 0, 0.11);
+    margin-right: 15px;
   }
 
   &__item {
@@ -35,7 +38,7 @@
     flex-direction: column;
     height: 100%;
 
-    gap: 8px;
+    gap: 12px;
   }
 
   &__icon {
@@ -44,6 +47,8 @@
   }
 
   &__title {
+    margin-top: -1px;
+    margin-bottom: 2px;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 500;
